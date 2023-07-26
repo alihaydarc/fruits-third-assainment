@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruits All</title>
+
+  <!-- daisyui or cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Leto font by google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
+
+  <!-- Custom color setap -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            [main - color]: '#F85559',
+            font- white: '#FFFFFF',
+        }
+      }
+    }
+        }
+  </script>
+  <!-- font aowsome link -->
+  <script src="https://kit.fontawesome.com/8b37d51570.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- navbar ar kag -->
+<body class="font-lato">
+  <header>
+    <div class="navbar flex-col lg:flex-row bg-red-400 input rounded-full p-2">
+      <div>
+        <ul class="flex gap-x-4 text-white ml-6">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Shop</a></li>
+          <li><a>All Fruits</a></li>
+        </ul>
+      </div>
+      <div class="flex-1 ml-56">
+        <img class="w-10" src="images/logo.png" alt="">
+        <a class="btn btn-ghost normal-case text-3xl  text-white">Fruit Burst</a>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search herer" class="input input-bordered w-24 md:w-auto rounded-3xl " />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto">
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
